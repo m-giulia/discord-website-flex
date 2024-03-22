@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&display=swap');
+
+/* UTILITY */
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    font-family: "Noto Sans Display", sans-serif;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+.flex-align-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-reverse {
+    flex-direction: row-reverse;
+}
+.txt-align-center {
+    text-align: center;
+}
+main {
+    position: relative;
+}
+
+/* HEADER */
+
+header {
+    background-color: #404eed;
+}
+.logo, .apri {
+    width: 10%;
+    display: block;
+}
+.logo img {
+    display: block;
+}
+.navmenu {
+    width: 90%;
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav {
+    width: 60%;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    line-height: 42px;
+}
+
+/* MAIN */
+
+.sezione {
+    padding: 6em 6em 9em;
+}
+.intro {
+    background: url('../images/sfondo.jpg') no-repeat;
+    background-position: center top;
+    color: white;
+}
+.cta {
+    width: 70%;
+    margin: auto;
+}
+.intro h1 {
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 1;
+    margin: 25px 0;
+}
+.intro p {
+    font-size: 19px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.button {
+    margin-top: 50px;
+    justify-content: center;
+    gap: 1.5em;
+}
+.button a {
+    background-color: white;
+    padding: 16px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.button .nero {
+    background-color: #23272a;
+    color: white;
+    border: 1px solid #23272a;
+}
+.button img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 15px;
+}
+.imgtxt img, .imgtxt .testo {
+    width: 49%;
+}
+.testo {
+    padding: 2em 7em;
+    font-size: 18px;
+    font-weight: 400;
+}
+.testo h3 {
+    font-size: 43px;
+    line-height: 1.2;
+}
+.grey-bg {
+    background-color: #f6f6f6
+}
+.tecnology {
+    width: 70%;
+    margin: 0 auto;
+}
+.tecnology h2 {
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1;
+    margin: 25px 0;
+}
+.tecnology p {
+    font-size: 18px;
+}
+.width90 {
+    width: 90%;
+}
+a.btn-blu {
+    background-color: #5865f2;
+    color: #fff;
+}
+.stelline {
+    background: url('../images/stelline.svg') no-repeat;
+    background-size: contain;
+}
+.cta h4 {
+    font-size: 33px;
+}
+
+/* FOOTER */
+
+footer {
+    justify-content: space-between;
+}
+.bgdarkgrey {
+    background-color: #23272a;
+}
+.lang {
+    font-size: 13px;
+    font-weight: 300;
+    margin: 20px 0 40px;
+}
+.lang .flag {
+    width: 24px;
+    margin-right: 15px;
+}
+.lang img {
+    width: 8px;
+    margin-left: 5px;
+}
+.social {
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+}
+.social a {
+    margin-right: 15px;
+}
+.ftmenu {
+    width: 65%;
+    justify-content: space-between;
+}
+.ftmenu h5 {
+    margin-top: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #5865f2;
+}
+.ftmenu .col {
+    width: 20%;
+}
+.ftmenu .col a {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.sottofooter {
+    border-top: 1px solid #404eed; 
+    padding: 2em 0;
+    margin: 2.5em 0;
+    justify-content: space-between;
+}
+.sottofooter div {
+    width: 50%;
+    vertical-align: middle;
+}
+.sottofooter .logo {
+    max-width: 200px;
+}
+.sottofooter .btn {
+    border-radius: 30px;
+    padding: 0.6em 1.2em;
+    font-size: 15px;
+    font-weight: 600;
+}
+.last {
+    padding-bottom: 2.5em;
+}
+.go-up {
+    display: block;
+    width: 35px;
+    height: 35px;
+    padding: 5px 10px;
+    line-height: 1.75;
+    background-color: #23272a;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+}
